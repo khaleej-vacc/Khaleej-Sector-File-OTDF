@@ -1,0 +1,56 @@
+// File created for the Arabian vACC - Doha FIR (OTDF)
+// Developed and maintained by the Arabian vACC Operations Department
+//
+// To be used on the VATSIM Network only
+
+//Coasting track symbol
+SYMBOL:COASTED
+MOVETO:-6:-6
+LINETO:-6:6
+LINETO:6:6
+LINETO:6:-7
+
+//Hystory dot
+SYMBOL:HISTORY
+FILLARC:0:0:1:0:0
+
+//Radar position symbol for PSR tracks
+SYMBOL:PRIMARY
+FILLARC:0:0:3:0:0
+
+//Radar position symbol for diverging PSR tracks
+SYMBOL:PRIMARY_DIV
+FILLARC:0:0:3:0:0
+ARC:0:0:10:0:0
+
+//Radar position symbol for SSR(A) tracks
+SYMBOL:NODAPS
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+
+//Radar position symbol for diverging SSR(A) tracks
+SYMBOL:NODAPS_DIV
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+ARC:0:0:10:0:0
+
+
+//Radar position symbol for SSR(A) tracks
+SYMBOL:DAPS
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+
+SYMBOL:DAPS_DIV
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+ARC:0:0:10:0:0
+
+//Radar position symbol for ADSB tracks
+SYMBOL:ADSB
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+
+SYMBOL:ADSB_DIV
+ARC:0:0:3:0:360
+ARC:0:0:2:0:360
+ARC:0:0:10:0:0

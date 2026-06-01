@@ -1,0 +1,174 @@
+{
+  "OTBD": {
+    "elevation": 37,
+    "runways": "15,33",
+    "transAlt": 13000,
+    "maxInitialClimb": 6000,
+    "timeMode": false,
+    "timezone": "UTC",
+    "appSI": "DD,DDE,D1X,DRN,DR1,DRS,DR2,DAW,DA2,D2X,DAE,DA1,DCS,DCN,DC1,DC2",
+    "sids": {
+      "climbvia": true,
+      "DATRI": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 6000,
+            "prio": 1
+          }
+        }
+      },
+      "ULIKA": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 6000,
+            "prio": 1
+          }
+        }
+      },
+      "ALSEM": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "BUNDU": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "KUPRO": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "VAXIN": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "ALVEN": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "LUBET": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "TULUB": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      },
+      "PATOM": {
+        "S": {
+          "1": {
+            "rwy": "15",
+            "initial": 6000,
+            "prio": 1
+          }
+        },
+        "N": {
+          "1": {
+            "rwy": "33",
+            "initial": 5000,
+            "prio": 1
+          }
+        }
+      }
+    }
+  }
+}

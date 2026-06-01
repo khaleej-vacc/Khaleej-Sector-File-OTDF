@@ -1,0 +1,44 @@
+// File created for the Arabian vACC - Doha FIR (OTDF)
+// Developed and maintained by the Arabian vACC Operations Department
+//
+// To be used on the VATSIM Network only
+
+// Hamad Departure Squawk
+RANGE:2101:2177
+ADEP:OTHH:OTBH:OT
+IFR
+
+// Hamad Departure Squawk
+RANGE:3201:3277
+ADEP:OTHH:OTBH:OT
+IFR
+
+// Hamad Departure Squawk
+RANGE:1501:1577
+ADEP:OTHH:OTBH:OT
+PRIORITY:-1
+IFR
+
+// Doha FIR Transit Squawk
+RANGE:1501:1577
+NOTADEP:OT
+NOTADES:OT
+IFR
+
+// Doha FIR Inbound Squawk
+RANGE:4601:4677
+NOTADEP:OT
+ADES:OT
+IFR
+
+// Hamad and Doha Domestic Squawk
+RANGE:4601:4677
+ADEP:OTHH:OTBD:OT
+ADES:OT
+IFR
+
+// Hamad and Doha Domestic Squawk
+RANGE:6501:6577
+ADEP:OTHH:OTBD:OT
+ADES:OT:OB
+VFR

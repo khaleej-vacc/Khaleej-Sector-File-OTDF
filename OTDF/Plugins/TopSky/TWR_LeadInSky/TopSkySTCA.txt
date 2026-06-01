@@ -1,0 +1,18 @@
+// File created for the Arabian vACC - Doha FIR (OTDF)
+// Developed and maintained by the Arabian vACC Operations Department
+//
+// To be used on the VATSIM Network only
+
+// Hamad Intl
+FINALAPP:OTHH:16L
+FINALAPP:OTHH:16R
+
+FINALAPP:OTHH:34L
+FINALAPP:OTHH:34R
+
+SOIR:OTHH:34L:34R
+SOIR:OTHH:16L:16R
+
+// Doha Intl
+FINALAPP:OTBD:15
+FINALAPP:OTBD:33
