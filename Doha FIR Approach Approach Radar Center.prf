@@ -62,19 +62,16 @@ Plugins	Plugin1	\OTDF\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin2	\OTDF\Plugins\Discord Euroscope\DiscordEuroscope.dll
 Plugins	Plugin3	\OTDF\Plugins\Virtual Controller Helper\VCH.dll
 Plugins	Plugin4	\OTDF\Plugins\VFPC\VFPC.dll
-Plugins	Plugin5	\OTDF\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OTDF\Plugins\TopSky\LeadInSky\TopSky.dll
-Plugins	Plugin7	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
+Plugins	Plugin5	\OTDF\Plugins\TopSky\LeadInSky\TopSky.dll
+Plugins	Plugin6	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
+Plugins	Plugin7	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin1Display1	Standard ES radar screen
 Plugins	Plugin6Display0	Standard ES radar screen
 Plugins	Plugin6Display1	Ground Radar display
-Plugins	Plugin7Display0	Standard ES radar screen
+Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin1Display0	Ground Radar display
-Plugins	Plugin7Display1	Ground Radar display
-Plugins	Plugin8	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
-Plugins	Plugin8Display0	Ground Radar display
-Plugins	Plugin9 \OTDF\Plugins\RDFPlugin.dll
-Plugins	Plugin9Display0	Standard ES radar screen
+Plugins	Plugin8	\OTDF\Plugins\RDFPlugin.dll
+Plugins	Plugin8Display0	Standard ES radar screen
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
 LastSession	callsign	(INITIALS)_OBS
@@ -88,5 +85,6 @@ LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	server	AUTOMATIC
-Plugins	Plugin9	\OTDF\Plugins\RDFPlugin.dll
-Plugins	Plugin9Display1	Ground Radar display
+Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin5Display1	Ground Radar display
+Plugins	Plugin8Display1	Ground Radar display
