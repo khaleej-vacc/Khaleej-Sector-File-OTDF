@@ -1,1 +1,14 @@
-
+# OTHH
+# Independent Parallel Ops
+OTHH:A:34R:34L:D:34L:34R:*:34_17
+# RWY 16L for arrivals, 16R for departures (independent)
+OTHH:A:16L:16R:D:16R:16L:*:34_17
+# RWY 34R for arrivals, 34L for departures (independent)
+OTHH:A:34R:34L:D:34L:34R:*:34_17
+# Mixed Use
+OTHH:A:34L,34R:*:D:34L,34R:*:34L,34R:30_15
+OTHH:A:16L,16R:*:D:16L,16R:*:16L,16R:30_15
+# Single Runway Ops
+OTHH:A:34L:34R:D:34L:34R:34L:28_14
+OTHH:A:34R:34L:D:34R:34L:34L:28_14
+OTHH:A:16R:16L:D:16R:16L:16R:28_14

@@ -1,4 +1,4 @@
-Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF/refs/heads/main/OTDF/Plugins/TopSky/LeadInSky/TopSkyMaps.txt
+//Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF/refs/heads/main/OTDF/Plugins/TopSky/LeadInSky/TopSkyMaps.txt
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
