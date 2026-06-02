@@ -51,6 +51,10 @@ PROFILE:OTHH_4_GND:20:3
 ATIS2:"Hamad Ground" - DCL [OTHH]
 ATIS3:Airport Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
+PROFILE:OTHH_5_GND:20:3
+ATIS2:"Hamad Ground Planner" - DCL [OTHH]
+ATIS3:Airport Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:OTHH_FM_GND:20:3
 ATIS2:"Hamad Ground" - DO NOT CONTACT ME!
 ATIS3:Airport Give us feedback! - vats.im/khatcfdb

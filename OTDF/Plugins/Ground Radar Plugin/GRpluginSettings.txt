@@ -1,3 +1,4 @@
+Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF/refs/heads/main/OTDF/Plugins/Ground%20Radar%20Plugin/GRpluginMaps.txt
 Equip_ProMode=0
 RawVideo=1
 Track_Heading_Line=0
@@ -17,7 +18,6 @@ Window_APP_Scale=18
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
 
-Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF/refs/heads/main/OTDF/Plugins/Ground%20Radar%20Plugin/GRpluginMaps.txt
 Maps_FontSize=10
 GroundLabel_Font=EuroScope
 GroundLabel_FontSize=13
