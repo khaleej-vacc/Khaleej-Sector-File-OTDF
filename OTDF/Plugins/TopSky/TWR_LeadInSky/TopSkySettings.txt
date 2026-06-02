@@ -1,8 +1,4 @@
-// File created for the Arabian vACC - Doha FIR (OTDF)
-// Developed and maintained by the Arabian vACC Operations Department
-//
-// To be used on the VATSIM Network only
-
+Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF/refs/heads/main/OTDF/Plugins/TopSky/TWR_LeadInSky/TopSkyMaps.txt
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 

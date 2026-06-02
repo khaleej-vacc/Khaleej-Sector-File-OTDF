@@ -1,8 +1,3 @@
-//&preserve File created for the Arabian vACC - Doha FIR (OTDF)
-//&preserve Developed and maintained by the Arabian vACC Operations Department
-//&preserve
-//&preserve To be used on the VATSIM Network only
-
 /// OTHH- HAMAD GROUPS
 GROUP:DOHConcourseAOpr
 GROUP:DOHConcourseBOpr

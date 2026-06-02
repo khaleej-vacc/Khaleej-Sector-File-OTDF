@@ -1,8 +1,3 @@
-//&preserve File created for the Arabian vACC - Doha FIR (OTDF)
-//&preserve Developed and maintained by the Arabian vACC Operations Department
-//&preserve
-//&preserve To be used on the VATSIM Network only
-
 // Symbol Definitions
 COLORDEF:SMGCS_LVP:255:221:0
 COLORDEF:SMGCS_HDP:169:183:70

@@ -72,19 +72,6 @@ Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin8	\OTDF\Plugins\RDFPlugin.dll
 Plugins	Plugin8Display0	Standard ES radar screen
-LastSession	atis_freq4	118000
-LastSession	connecttype	0
-LastSession	callsign	(INITIALS)_OBS
-LastSession	facility	0
-LastSession	rating	0
-LastSession	tovatsim	1
-LastSession	atis2	Arabian vACC - Observer
-LastSession	atis3	Information - vats.im/arb/info
-LastSession	atis4	Feedback - vats.im/arb/feedback
-LastSession	range	300
-LastSession	proxyserver	localhost
-LastSession	simdatapublish	0
-LastSession	server	AUTOMATIC
 Plugins	Plugin5Display0	Standard ES radar screen
 Plugins	Plugin5Display1	Ground Radar display
 Plugins	Plugin8Display1	Ground Radar display
