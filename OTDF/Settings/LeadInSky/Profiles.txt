@@ -36,7 +36,11 @@ ATIS2:"Doha Director"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_F3_APP:150:5
-ATIS2:"Doha Director"
+ATIS2:"Doha Final Monitoring Control"
+ATIS3:Airport Information - vats.im/arb/airports
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
+PROFILE:DOH_MIL_APP:150:5
+ATIS2:"Doha Military Director"
 ATIS3:Airport Information - vats.im/arb/airports
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 END
