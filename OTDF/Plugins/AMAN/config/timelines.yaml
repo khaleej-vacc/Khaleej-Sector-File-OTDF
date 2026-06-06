@@ -1,0 +1,42 @@
+---
+timelines:
+  OTHH:
+    defaults:
+      defaultArrivalLabelLayoutId: "HHArr"
+      defaultDepartureLabelLayoutId: "HHDep"
+    runwayBased:
+    - timelineTitle: "34_DUAL"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left:
+      - "34L"
+      right:
+      - "34R"
+      arrivalLabelLayoutId: "HHArr"
+      departureLabelLayoutId: "HHDep"
+    - timelineTitle: "34L_ARR"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left:
+      - "34L"
+      right: []
+      arrivalLabelLayoutId: "HHArr"
+      departureLabelLayoutId: "HHDep"
+    - timelineTitle: "34R_ARR"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left: []
+      right:
+      - "34R"
+      arrivalLabelLayoutId: "HHArr"
+      departureLabelLayoutId: "HHDep"
+    feederFixBased: []
+  OTBD:
+    defaults:
+      defaultArrivalLabelLayoutId: "HHArr"
+      defaultDepartureLabelLayoutId: "HHDep"
+    runwayBased:
+    - timelineTitle: "34_DUAL"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left:
+      - "33"
+      right: []
+      arrivalLabelLayoutId: "HHArr"
+      departureLabelLayoutId: "HHDep"

@@ -1,0 +1,370 @@
+# yaml-language-server: $schema=./airport.schema.yaml
+
+location:
+  latitude: 25.274583333333
+  longitude: 51.608388888889
+
+sequencingHorizon: PT60M
+lockedHorizon: PT10M
+
+feederFixes: [ "HAYYA" ]
+feederFixTimelineArrivalLabelLayoutId: "HHArr"
+
+runwayThresholds:
+  34L:
+    location:
+      latitude: 25.255366944444
+      longitude: 51.605433055556
+    elevation: 13
+    trueHeading: 336
+
+  34R:
+    location:
+      latitude: 25.255458055556
+      longitude: 51.626781111111
+    elevation: 13
+    trueHeading: 336
+
+# Speed and altitude values should be based on typical observed values
+arrivalProfiles:
+  34L:
+    - arrivalName: "*" # Applies to all arrival routes for 34L
+      frozenSequenceArea: commonFrozenArea
+      sequencingArea: commonSequencingArea
+      fixes:
+        # Standard approaches
+        - { fix: IMKAT, altitude: 3500, role: IF }
+        - { fix: LAGMA, altitude: 2500, role: IF }
+    - arrivalName: "ALKAN2V"
+      fixes:
+        - { fix: ALKAN, altitude: 20000 }
+        - { fix: SENKI, altitude: 17000 }
+        - { fix: LUBAK, altitude: 15000 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "HAYYA2V"
+      fixes:
+        - { fix: HAYYA, altitude: 21000 }
+        - { fix: VELAM, altitude: 19000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: LUBAK, altitude: 15000 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "VEDED2V"
+      fixes:
+        - { fix: VEDED, altitude: 18000 }
+        - { fix: VELAM, speed: 250, altitude: 18000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: LUBAK, altitude: 15000 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "ALKAN2R"
+      fixes:
+        - { fix: ALKAN, altitude: 20000 }
+        - { fix: GETOV, speed: 250, altitude: 19000 }
+        - { fix: RESAR, altitude: 18000 }
+        - { fix: SILBI, altitude: 17000 }
+        - { fix: NORMU, speed: 250, altitude: 16000 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "HAYYA2R"
+      fixes:
+        - { fix: HAYYA, altitude: 21000 }
+        - { fix: VELAM, altitude: 19000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: TUDOM, altitude: 17500 }
+        - { fix: GETOV, speed: 250, altitude: 17000 }
+        - { fix: RESAR, altitude: 16500 }
+        - { fix: SILBI, altitude: 16000 }
+        - { fix: NORMU, speed: 250, altitude: 15500 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "TOSNA2V"
+      fixes:
+        - { fix: TOSNA, altitude: 20000 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "VEDED2R"
+      fixes:
+        - { fix: VEDED, altitude: 18000 }
+        - { fix: VELAM, speed: 250, altitude: 18000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: TUDOM, altitude: 17500 }
+        - { fix: GETOV, speed: 250, altitude: 17000 }
+        - { fix: RESAR, altitude: 16500 }
+        - { fix: SILBI, altitude: 16000 }
+        - { fix: NORMU, speed: 250, altitude: 15500 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "ALKAN2L"
+      fixes:
+        - { fix: ALKAN, altitude: 20000 }
+        - { fix: GETOV, speed: 250, altitude: 19000 }
+        - { fix: RESAR, altitude: 18000 }
+        - { fix: SILBI, altitude: 17000 }
+        - { fix: NORMU, speed: 250, altitude: 16000 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: KATED, altitude: 12000 }
+        - { fix: LOSEN, speed: 230, altitude: 11000 }
+        - { fix: KIPIK, altitude: 9000 }
+        - { fix: SOMAP, altitude: 7000 }
+        - { fix: PURIN, altitude: 5000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "HAYYA2L"
+      fixes:
+        - { fix: HAYYA, altitude: 21000 }
+        - { fix: VELAM, altitude: 19000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: TUDOM, altitude: 17500 }
+        - { fix: GETOV, speed: 250, altitude: 17000 }
+        - { fix: RESAR, altitude: 16500 }
+        - { fix: SILBI, altitude: 16000 }
+        - { fix: NORMU, speed: 250, altitude: 15500 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: KATED, altitude: 12000 }
+        - { fix: LOSEN, speed: 230, altitude: 11000 }
+        - { fix: KIPIK, altitude: 9000 }
+        - { fix: SOMAP, altitude: 7000 }
+        - { fix: PURIN, altitude: 5000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "TOSNA2J"
+      fixes:
+        - { fix: TOSNA, altitude: 20000 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: KATED, altitude: 12000 }
+        - { fix: LOSEN, speed: 230, altitude: 11000 }
+        - { fix: KIPIK, altitude: 9000 }
+        - { fix: SOMAP, altitude: 7000 }
+        - { fix: PURIN, altitude: 5000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "VEDED2L"
+      fixes:
+        - { fix: VEDED, altitude: 18000 }
+        - { fix: VELAM, speed: 250, altitude: 18000 }
+        - { fix: VUTAN, altitude: 18000 }
+        - { fix: TUDOM, altitude: 17500 }
+        - { fix: GETOV, speed: 250, altitude: 17000 }
+        - { fix: RESAR, altitude: 16500 }
+        - { fix: SILBI, altitude: 16000 }
+        - { fix: NORMU, speed: 250, altitude: 15500 }
+        - { fix: DATAL, speed: 250, altitude: 15000 }
+        - { fix: LABEX, altitude: 14500 }
+        - { fix: KUBAR, altitude: 14000 }
+        - { fix: OXAGO, altitude: 13500 }
+        - { fix: LUBAK, altitude: 13200 }
+        - { fix: BAYAN, altitude: 13000 }
+        - { fix: KATED, altitude: 12000 }
+        - { fix: LOSEN, speed: 230, altitude: 11000 }
+        - { fix: KIPIK, altitude: 9000 }
+        - { fix: SOMAP, altitude: 7000 }
+        - { fix: PURIN, altitude: 5000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "HAYYA1J"
+      fixes:
+        - { fix: HAYYA, altitude: 21000 }
+        - { fix: TONBI, altitude: 19000 }
+        - { fix: MURGO, altitude: 16000 }
+        - { fix: GINTO, altitude: 13000 }
+        - { fix: LAGNO, altitude: 10000 }
+        - { fix: KIPIK, altitude: 9000 }
+        - { fix: SOMAP, altitude: 7000 }
+        - { fix: PURIN, altitude: 5000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "LAEEB1J"
+      fixes:
+        - { fix: LAEEB, altitude: 15000 }
+        - { fix: GOKNI, altitude: 13000 }
+        - { fix: GINTO, altitude: 11500 }
+        - { fix: LAGNO, altitude: 10000 }
+        - { fix: KIPIK, altitude: 8000 }
+        - { fix: SOMAP, altitude: 6000 }
+        - { fix: PURIN, altitude: 4500 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "LAEEB1L"
+      fixes:
+        - { fix: LAEEB, altitude: 15000 }
+        - { fix: EMEXA, altitude: 13000 }
+        - { fix: MIVAL, altitude: 11000 }
+        - { fix: KUTER, altitude: 8500 }
+        - { fix: NONBA, altitude: 6000 }
+        - { fix: KINAP, speed: 220, altitude: 6000 }
+        - { fix: KIPIK, altitude: 6000 }
+        - { fix: SOMAP, altitude: 5000 }
+        - { fix: PURIN, altitude: 4000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "ORLEK1L"
+      fixes:
+        - { fix: ORLEK, altitude: 21000 }
+        - { fix: GINTO, altitude: 15000 }
+        - { fix: LAGNO, altitude: 10000 }
+        - { fix: KIPIK, altitude: 8000 }
+        - { fix: SOMAP, altitude: 6000 }
+        - { fix: PURIN, altitude: 4500 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "TOSNA2L"
+      fixes:
+        - { fix: TOSNA, altitude: 20000 }
+        - { fix: KUVLA, altitude: 18000 }
+        - { fix: DINEX, altitude: 16000 }
+        - { fix: KIVAM, altitude: 14500 }
+        - { fix: IMTAL, altitude: 13000 }
+        - { fix: KIPEM, altitude: 11500 }
+        - { fix: EMEXA, altitude: 10000 }
+        - { fix: MIVAL, altitude: 8500 }
+        - { fix: KUTER, altitude: 7000 }
+        - { fix: NONBA, altitude: 6000 }
+        - { fix: KINAP, speed: 220, altitude: 6000 }
+        - { fix: KIPIK, altitude: 6000 }
+        - { fix: SOMAP, altitude: 5000 }
+        - { fix: PURIN, altitude: 4000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "TOVOX2L"
+      fixes:
+        - { fix: TOVOX, altitude: 18000 }
+        - { fix: DINEX, altitude: 16000 }
+        - { fix: KIVAM, altitude: 14500 }
+        - { fix: IMTAL, altitude: 13000 }
+        - { fix: KIPEM, altitude: 11500 }
+        - { fix: EMEXA, altitude: 10000 }
+        - { fix: MIVAL, altitude: 8500 }
+        - { fix: KUTER, altitude: 7000 }
+        - { fix: NONBA, altitude: 6000 }
+        - { fix: KINAP, speed: 220, altitude: 6000 }
+        - { fix: KIPIK, altitude: 6000 }
+        - { fix: SOMAP, altitude: 5000 }
+        - { fix: PURIN, altitude: 4000 }
+        - { fix: DASIK, speed: 220, altitude: 3000 }
+    - arrivalName: "LAEEB1R"
+      fixes:
+        - { fix: LAEEB, altitude: 15000 }
+        - { fix: EMEXA, altitude: 13000 }
+        - { fix: AFNAN, altitude: 11000 }
+        - { fix: EMALO, altitude: 9500 }
+        - { fix: MUTLI, altitude: 8500 }
+        - { fix: LOVET, altitude: 7000 }
+        - { fix: EGNUG, altitude: 7000 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "TOSNA2R"
+      fixes:
+        - { fix: TOSNA, altitude: 20000 }
+        - { fix: KUVLA, altitude: 18000 }
+        - { fix: DINEX, speed: 250, altitude: 15000 }
+        - { fix: KIVAM, altitude: 12000 }
+        - { fix: AFNAN, altitude: 11000 }
+        - { fix: EMALO, altitude: 9500 }
+        - { fix: MUTLI, altitude: 8500 }
+        - { fix: LOVET, altitude: 7000 }
+        - { fix: EGNUG, altitude: 7000 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "TOVOX2R"
+      fixes:
+        - { fix: TOVOX, altitude: 18000 }
+        - { fix: DINEX, altitude: 15000 }
+        - { fix: KIVAM, speed: 250, altitude: 12000 }
+        - { fix: AFNAN, altitude: 11000 }
+        - { fix: EMALO, altitude: 9500 }
+        - { fix: MUTLI, altitude: 8500 }
+        - { fix: LOVET, altitude: 7000 }
+        - { fix: EGNUG, altitude: 7000 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+    - arrivalName: "ORLEK1R"
+      fixes:
+        - { fix: ORLEK, altitude: 21000 }
+        - { fix: GINTO, altitude: 15000 }
+        - { fix: LAGNO, altitude: 10000 }
+        - { fix: NOLMA, speed: 230, altitude: 9000 }
+        - { fix: EGNUG, altitude: 8500 }
+        - { fix: MISOX, altitude: 6000 }
+        - { fix: SIDMU, altitude: 5000 }
+        - { fix: LOVAN, altitude: 4000 }
+        - { fix: MUXED, speed: 220, altitude: 3000 }
+areas:
+  commonFrozenArea:
+    ceilingFt: 24500
+    boundary:
+      - N022.09.25.357 E037.56.46.477 N022.44.32.836 E038.28.14.912
+      - N022.44.32.836 E038.28.14.912 N022.46.09.732 E039.44.56.311
+      - N022.46.09.732 E039.44.56.311 N022.12.14.924 E040.11.58.770
+      - N022.12.14.924 E040.11.58.770 N020.51.54.368 E040.00.27.230
+      - N020.51.54.368 E040.00.27.230 N020.32.31.620 E039.00.09.945
+      - N020.32.31.620 E039.00.09.945 N020.53.07.039 E038.12.43.994
+      - N020.53.07.039 E038.12.43.994 N022.09.25.357 E037.56.46.477
+
+  commonSequencingArea:
+    boundary:
+      - N025.48.24.678 E033.21.46.054 N025.48.24.678 E045.20.11.508
+      - N025.48.24.678 E045.20.11.508 N016.46.26.222 E045.40.32.193
+      - N016.46.26.222 E045.40.32.193 N016.45.16.738 E033.45.55.618
+      - N016.45.16.738 E033.45.55.618 N025.48.24.678 E033.21.46.054

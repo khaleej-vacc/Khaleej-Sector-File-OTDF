@@ -79,3 +79,6 @@ LastSession	atis_freq4	118000
 Plugins	Plugin9	\OTDF\Plugins\CDM\CDM.dll
 Plugins	Plugin9Display0	Ground Radar display
 Plugins	Plugin9Display1	Standard ES radar screen
+Plugins	Plugin10	\OTDF\Plugins\AMAN\Aman.dll
+Plugins	Plugin10Display0	Ground Radar display
+Plugins	Plugin10Display1	Standard ES radar screen
