@@ -1,4 +1,4 @@
-Settings	sector	\OTDF-Developer_20260601153218-260501-0001.sct
+Settings	sector	\OTDF-Developer_20260607113517-260501-0013.sct
 Settings	SettingsfileSYMBOLOGY	\OTDF\Settings\TWR_LeadInSky\Symbology.txt
 Settings	SettingsfileVOICE	\OTDF\Settings\TWR_LeadInSky\Voice.txt
 Settings	SettingsfilePROFILE	\OTDF\Settings\TWR_LeadInSky\Profiles.txt
@@ -15,7 +15,7 @@ Settings	SettingsfileCONFLICT	\OTDF\Settings\TWR_LeadInSky\Lists.txt
 Settings	SettingsfileVCCS	\OTDF\Settings\TWR_LeadInSky\VCCS.txt
 Settings	SettingsfilePILOTING	\OTDF\Settings\General.txt
 Settings	SettingsfileORIGPLANE	\OTDF\Settings\General.txt
-Settings	SettingsfileSTUP	\OTDF\Settings\General.txt
+Settings	SettingsfileSTUP	\OTDF\Settings\TWR_LeadInSky\Lists.txt
 Settings	SettingsfileTAXIOUT	\OTDF\Settings\General.txt
 Settings	SettingsfileTAKEOFF	\OTDF\Settings\General.txt
 Settings	SettingsfileADCS	\OTDF\Settings\General.txt

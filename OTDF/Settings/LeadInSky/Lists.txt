@@ -90,7 +90,7 @@ m_Column:RMK:12:1:38:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 END
 ARR
 m_Visible:1
-m_X:1693
+m_X:1550
 m_Y:66
 m_LineNumber:0
 m_Resizable:1
