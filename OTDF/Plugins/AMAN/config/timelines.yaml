@@ -28,15 +28,3 @@ timelines:
       arrivalLabelLayoutId: "HHArr"
       departureLabelLayoutId: "HHDep"
     feederFixBased: []
-  OTBD:
-    defaults:
-      defaultArrivalLabelLayoutId: "HHArr"
-      defaultDepartureLabelLayoutId: "HHDep"
-    runwayBased:
-    - timelineTitle: "34_DUAL"
-      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
-      left:
-      - "33"
-      right: []
-      arrivalLabelLayoutId: "HHArr"
-      departureLabelLayoutId: "HHDep"
