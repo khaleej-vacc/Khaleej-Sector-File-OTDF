@@ -7,7 +7,7 @@ location:
 sequencingHorizon: PT60M
 lockedHorizon: PT10M
 
-feederFixes: [ "HAYYA" ]
+feederFixes: [ "HAYYA","VEDED","ALKAN","TOSNA","TOVOX","LAEEB","ORLEK","KIPIK","EGNUG" ]
 feederFixTimelineArrivalLabelLayoutId: "HHArr"
 
 runwayThresholds:
@@ -17,18 +17,28 @@ runwayThresholds:
       longitude: 51.605433055556
     elevation: 13
     trueHeading: 336
-
   34R:
     location:
       latitude: 25.255458055556
       longitude: 51.626781111111
     elevation: 13
     trueHeading: 336
+  16L:
+    location:
+      latitude: 25.296103055556
+      longitude: 51.608878055556
+    elevation: 13
+    trueHeading: 156
+  16R:
+    location:
+      latitude: 25.290978055556
+      longitude: 51.589741944444
+    elevation: 13
+    trueHeading: 156
 
-# Speed and altitude values should be based on typical observed values
 arrivalProfiles:
-  34L:
-    - arrivalName: "*" # Applies to all arrival routes for 34L
+  34*:
+    - arrivalName: "*"
       frozenSequenceArea: commonFrozenArea
       sequencingArea: commonSequencingArea
       fixes:
@@ -350,14 +360,14 @@ arrivalProfiles:
         - { fix: SIDMU, altitude: 5000 }
         - { fix: LOVAN, altitude: 4000 }
         - { fix: MUXED, speed: 220, altitude: 3000 }
-  16L:
-    - arrivalName: "*" # Applies to all arrival routes for 34L
+  16*:
+    - arrivalName: "*"
       frozenSequenceArea: commonFrozenArea
       sequencingArea: commonSequencingArea
       fixes:
         # Standard approaches
-        - { fix: IMKAT, altitude: 3500, role: IF }
-        - { fix: LAGMA, altitude: 2500, role: IF }
+        - { fix: TOVAN, altitude: 2500, role: IF }
+        - { fix: GOLSI, altitude: 3500, role: IF }
     - arrivalName: "ALKAN2H"
       fixes:
         - { fix: ALKAN, altitude: 20000 }
