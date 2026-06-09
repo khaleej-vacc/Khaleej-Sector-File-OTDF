@@ -1,32 +1,32 @@
 PROFILE
 PROFILE:[INITIALS]_OBS:300:0
 ATIS2:Khaleej vACC - Observer
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:OTDF_1_CTR:400:6
 ATIS2:"Doha Control"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:OTDF_2_CTR:400:6
 ATIS2:"Doha Control"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_R1_APP:150:5
 ATIS2:"Doha Radar" DCL [DOHA]
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_R2_APP:150:5
 ATIS2:"Doha Radar"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_A1_APP:150:5
 ATIS2:"Doha Approach"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_A2_APP:150:5
 ATIS2:"Doha Approach"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_F1_APP:150:5
 ATIS2:"Doha Director" - CONTACT WITH CALLSIGN ONLY!
 ATIS3:TURN IMMEDIATELY WHEN INSTRUCTED
@@ -37,10 +37,10 @@ ATIS3:TURN IMMEDIATELY WHEN INSTRUCTED
 ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
 PROFILE:DOH_F3_APP:150:5
 ATIS2:"Doha Final Monitoring Control"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_MIL_APP:150:5
 ATIS2:"Doha Military Director"
-ATIS3:Submit TOBT @ vats.im/vdgs
-ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 END
