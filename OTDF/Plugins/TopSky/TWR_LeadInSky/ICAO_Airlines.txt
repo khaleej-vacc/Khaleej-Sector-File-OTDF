@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-../../../ICAO/ICAO_Airlines.txt
-=======
-..\ICAO\ICAO_Airlines.txt
->>>>>>> Stashed changes
+..\..\..\ICAO\ICAO_Airlines.txt
