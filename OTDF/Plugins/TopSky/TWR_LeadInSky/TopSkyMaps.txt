@@ -1,5 +1,5 @@
-//File created for the Arabian vACC - Doha FIR (OTDF)
-//Developed and maintained by the Arabian vACC Operations Department
+//File created for the Khaleej vACC - Doha FIR (OTDF)
+//Developed and maintained by the Khaleej vACC Operations Department
 //
 //To be used on the VATSIM Network only
 COLORDEF:ASP_ACC:0:105:205
