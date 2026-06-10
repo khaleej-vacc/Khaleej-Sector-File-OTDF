@@ -404,9 +404,11 @@
          "TULUB": [
             {
                "direction": "EVEN",
-               "max_fl": 12000,
+               "max_fl": 120,
                "destinations": [
-                  "OBBI"
+                  "OBBI",
+                  "OBBS",
+                  "OBKH"
                ],
                "airways": [
                   "M444"
@@ -414,9 +416,10 @@
             },
             {
                "direction": "EVEN",
-               "max_fl": 16000,
+               "max_fl": 160,
                "destinations": [
-                  "OEDF"
+                  "OEDF",
+                  "OEDR"
                ],
                "airways": [
                   "B457"
@@ -424,7 +427,7 @@
             },
             {
                "direction": "EVEN",
-               "max_fl": 28000,
+               "max_fl": 280,
                "destinations": [
                   "OERK"
                ],
@@ -434,9 +437,11 @@
             },
             {
                "direction": "EVEN",
-               "max_fl": 28000,
+               "max_fl": 280,
                "destinations": [
-                  "OKKK"
+                  "OKKK",
+                  "OKAJ",
+                  "OKAS"
                ],
                "airways": [
                   "B457"
