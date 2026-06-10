@@ -14,7 +14,7 @@
 	<Taxizones url="" />
 	<Slots url="" />
 	<sidInterval url="" />
-	<DefaultTaxiTime minutes="13" />
+	<DefaultTaxiTime minutes="10" />
 	<DeIceTimes light="5" medium="9" heavy="12" super="15"/>
 	<DeIceRemTaxi rem1Name= "REM1" rem1="10" rem2Name= "REM2" rem2="10" rem3Name= "REM3" rem3="10" rem4Name= "REM4" rem4="10" rem5Name= "REM5" rem5="10"/>
 	<eventModeMin time="5" />
@@ -34,4 +34,5 @@
 	<autoSetTobtFromEvSlot mode="true" />
 	<remarksOptionCtot mode="false" />
 	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
+	<loading text="...." />
 </CDM>
