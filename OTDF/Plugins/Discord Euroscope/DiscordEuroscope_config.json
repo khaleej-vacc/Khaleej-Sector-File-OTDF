@@ -46,12 +46,12 @@
             },
 
             "if_controller": {
-                "presence_small_image_key": "khlj1",
-                "presence_large_image_key" : "khlj1",
+                "presence_small_image_key": "",
+                "presence_large_image_key" : "",
                 "state" : "Tracking {current_tracked} aircraft",
                 "details" : "{callsign} on {frequency}MHz",
-                "presence_small_image_text" : "khlj1",
-                "presence_large_image_text" : "khlj1"
+                "presence_small_image_text" : "",
+                "presence_large_image_text" : ""
             },
 
             "if_supervisor": {
