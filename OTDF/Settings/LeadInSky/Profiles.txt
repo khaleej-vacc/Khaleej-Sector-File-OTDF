@@ -1,8 +1,4 @@
 PROFILE
-PROFILE:[INITIALS]_OBS:300:0
-ATIS2:Khaleej vACC - Observer
-ATIS3:Give us feedback! - vats.im/khatcfdb
-ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:OTDF_1_CTR:400:6
 ATIS2:"Doha Control"
 ATIS3:Give us feedback! - vats.im/khatcfdb
@@ -12,7 +8,7 @@ ATIS2:"Doha Control"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_R1_APP:150:5
-ATIS2:"Doha Radar" DCL [DOHA]
+ATIS2:"Doha Radar" - DCL [DOHA]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_R2_APP:150:5
@@ -41,6 +37,10 @@ ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_MIL_APP:150:5
 ATIS2:"Doha Military Director"
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Qatar | Visit khaleejvacc.net
+PROFILE:[INITIALS]_OBS:300:0
+ATIS2:Khaleej vACC - Observer
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 END
