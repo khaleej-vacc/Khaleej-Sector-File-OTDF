@@ -152,7 +152,8 @@
                "suffix":"ULIKA",
                "direction":"EVEN",
                "airways":[
-                  "V975"
+                  "V975",
+                  "M430"
                ]
             }
          ],
@@ -234,7 +235,8 @@
                "suffix":"ULIKA",
                "direction":"EVEN",
                "airways":[
-                  "V975"
+                  "V975",
+                  "M430"
                ]
             }
          ],
