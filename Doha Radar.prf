@@ -66,8 +66,6 @@ Plugins	Plugin5	\OTDF\Plugins\TopSky\LeadInSky\TopSky.dll
 Plugins	Plugin6	\OTDF\Plugins\VATCAN Bookings Plugin\VATCANBookings.dll
 Plugins	Plugin7	\OTDF\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin1Display1	Standard ES radar screen
-Plugins	Plugin6Display0	Standard ES radar screen
-Plugins	Plugin6Display1	Ground Radar display
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin1Display0	Ground Radar display
 Plugins	Plugin8	\OTDF\Plugins\RDFPlugin.dll
