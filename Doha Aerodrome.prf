@@ -69,8 +69,6 @@ Plugins	Plugin1Display1	Ground Radar display
 Plugins	Plugin4Display0	Standard ES radar screen
 Plugins	Plugin4Display1	Ground Radar display
 Plugins	Plugin5Display1	Ground Radar display
-Plugins	Plugin6Display0	Standard ES radar screen
-Plugins	Plugin6Display1	Ground Radar display
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin5Display0	Standard ES radar screen
 LastSession	atis_freq4	118000
