@@ -1,10 +1,10 @@
 PROFILE
 PROFILE:OTDF_1_CTR:400:6
-ATIS2:"Doha Control"
+ATIS2:"Doha Control" - DCL [OTDF]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:OTDF_2_CTR:400:6
-ATIS2:"Doha Control"
+ATIS2:"Doha Control" - DCL [OTDF]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Qatar | Visit khaleejvacc.net
 PROFILE:DOH_R1_APP:150:5
