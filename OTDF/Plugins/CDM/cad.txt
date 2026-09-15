@@ -1,4 +1,4 @@
 ## Maximum hourly landing capacity
 # OTDF FIR
-OTHH,60
-OTBD,30
+OTHH,45
+OTBD,18
