@@ -11,7 +11,7 @@ Track_Heading_Line=0
 Track_HistoryDots_GND=4
 
 Color_Arrival=253,236,166
-Color_Departure=210,233,255
+Color_Departure=230,230,230
 Color_APP_Background=19,20,21
 Color_RawVideo=255,255,0
 Color_Unknown=233,234,235
