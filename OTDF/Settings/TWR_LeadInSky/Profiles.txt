@@ -48,11 +48,11 @@ ATIS2:"Hamad Ground" - DCL [OTHH]
 ATIS3:Submit TOBT @ vats.im/vdgs
 ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
 PROFILE:OTHH_4_GND:20:3
-ATIS2:"Hamad Ground" - DCL [OTHH]
+ATIS2:"Hamad Ground" - Overflow
 ATIS3:Submit TOBT @ vats.im/vdgs
 ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
 PROFILE:OTHH_5_GND:20:3
-ATIS2:"Hamad Ground Planner" - DCL [OTHH]
+ATIS2:"Hamad Ground" - Planner
 ATIS3:Submit TOBT @ vats.im/vdgs
 ATIS4:Visit khaleejvacc.net | Give us feedback! - vats.im/khatcfdb
 PROFILE:OTHH_FM_GND:20:3
