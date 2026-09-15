@@ -2,9 +2,9 @@ Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OTDF
 Equip_ProMode=1
 
 RawVideo=1
-RawVideo_Brightness=100
-RawVideo_Afterglow=60
-RawVideo_MaxHistory=3
+RawVideo_Brightness=90
+RawVideo_Afterglow=45
+RawVideo_MaxHistory=2
 RawVideo_Gradient=0
 
 Track_Heading_Line=0
