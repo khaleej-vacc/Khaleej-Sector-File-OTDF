@@ -70,6 +70,10 @@ HTTP_GRIB_Longitude_Max=55
 HTTP_GRIB_Longitude_Min=49
 
 Shortcut_RadarMenu_Combo=0x12
+Shortcut_Map_Xfr_Key=1,0x44 ; D
+Shortcut_Map_Target=1,OTHH SIDS
+Shortcut_Map_Xfr_Key=1,0x56 ; V
+Shortcut_Map_Target=1,VFR
 
 CPDLC_Default = 1
 CPDLC_MinLevel=285
