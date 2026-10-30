@@ -16,7 +16,7 @@
         },
         "timeMode": true,
         "timezone": "UTC",
-        "appSI": "DDW,DDE,D1X,DRN,DR1,DRS,DR2,DAW,DA2,D2X,DAE,DA1,DFS,DCN,DFNH",
+        "appSI": "DDW,DDE,D1X,DRN,DR1,DRS,DR2,DAW,DA2,D2X,DAE,DA1,DFS,DFN,DFNH",
         "sids": {
             "climbvia": true,
             "DATRI": {
@@ -273,173 +273,64 @@
                     }
                 }
             },
-            "KASIS2xBUNDU": {
+            "IVENA3": {
+                "1": {
+                    "1": {
+                        "rwy": "16R",
+                        "initial": 3000,
+                        "prio": 3,
+                        "trans": {
+                            "ALSEM": "",
+                            "ALVEN": "",
+                            "KUPRO": "",
+                            "LUBET": "",
+                            "PATOM": "",
+                            "VAXIN": ""
+                        }
+                    }
+                }
+            },
+            "KASIS2": {
                 "1": {
                     "1": {
                         "rwy": "16L",
                         "initial": 4000,
-                        "wpt": "BUNDU",
-                        "prio": 3
+                        "prio": 3,
+                        "trans": {
+                            "BUNDU": "",
+                            "DATRI": "",
+                            "TULUB": "",
+                            "ULIKA": ""
+                        }
                     }
                 }
             },
-            "KASIS2xDATRI": {
-                "1": {
-                    "1": {
-                        "rwy": "16L",
-                        "initial": 4000,
-                        "wpt": "DATRI",
-                        "prio": 3
-                    }
-                }
-            },
-            "KASIS2xTULUB": {
-                "1": {
-                    "1": {
-                        "rwy": "16L",
-                        "initial": 4000,
-                        "wpt": "TULUB",
-                        "prio": 3
-                    }
-                }
-            },
-            "KASIS2xULIKA": {
-                "1": {
-                    "1": {
-                        "rwy": "16L",
-                        "initial": 4000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-                }
-            },
-            "PARES3xALSEM": {
+            "PARES3": {
                 "1": {
                     "1": {
                         "rwy": "34L",
                         "initial": 3000,
-                        "wpt": "ALSEM",
-                        "prio": 3
+                        "prio": 3,
+                        "trans": {
+                            "ALSEM": "",
+                            "ALVEN": "",
+                            "BUNDU": "",
+                            "KUPRO": "",
+                            "VAXIN": ""
+                        }
                     }
                 }
             },
-            "PARES3xALVEN": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 3000,
-                        "wpt": "ALVEN",
-                        "prio": 3
-                    }
-                }
-            },
-            "PARES3xBUNDU": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 3000,
-                        "wpt": "BUNDU",
-                        "prio": 3
-                    }
-                }
-            },
-            "PARES3xKUPRO": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 3000,
-                        "wpt": "KUPRO",
-                        "prio": 3
-                    }
-                }
-            },
-            "PARES3xVAXIN": {
-                "1": {
-                    "1": {
-                        "rwy": "34L",
-                        "initial": 3000,
-                        "wpt": "VAXIN",
-                        "prio": 3
-                    }
-                }
-            },
-            "DEMBO4xDATRI": {
+            "DEMBO4": {
                 "1": {
                     "1": {
                         "rwy": "34R",
                         "initial": 4000,
-                        "wpt": "DARTI",
-                        "prio": 3
-                    }
-                }
-            },
-            "DEMBO4xULIKA": {
-                "1": {
-                    "1": {
-                        "rwy": "34R",
-                        "initial": 4000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xALSEM": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "ULIKA",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xALVEN": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "ALVEN",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xKUPRO": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "KUPRO",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xLUBET": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "LUBET",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xPATOM": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "PATOM",
-                        "prio": 3
-                    }
-                }
-            },
-            "IVENA3xVAXIN": {
-                "1": {
-                    "1": {
-                        "rwy": "16R",
-                        "initial": 3000,
-                        "wpt": "VAXIN",
-                        "prio": 3
+                        "prio": 3,
+                        "trans": {
+                            "DATRI": "",
+                            "ULIKA": ""
+                        }
                     }
                 }
             }

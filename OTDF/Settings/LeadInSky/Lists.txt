@@ -71,9 +71,9 @@ m_Column:FR:2:1:10031:0:0:1:TopSky plugin:::0:0.0
 m_Column:DEP:5:1:10007:7:1001:1:TopSky plugin::TopSky plugin:0:0.0
 m_Column:ARR:5:1:10008:7:1001:1:TopSky plugin::TopSky plugin:1:0.0
 m_Column:RWY:3:1:642:743:64:1:vSID:vSID:TopSky plugin:0:0.0
-m_Column:SID:10:1:641:741:742:1:vSID:vSID:vSID:1:0.0
-m_Column:HDG:4:0:54:96:96:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
-m_Column:TRANS:8:0:647:746:0:0:vSID:vSID::0:0.0
+m_Column:SID:10:1:641:741:17:1:vSID:vSID::1:0.0
+m_Column:TRANS:7:0:647:746:0:1:vSID:vSID::0:0.0
+m_Column:HDG:5:0:54:96:96:1:TopSky plugin:TopSky plugin:TopSky plugin:0:0.0
 m_Column:CFL:5:1:640:741:740:1:vSID:vSID:vSID:1:0.0
 m_Column:RFL:5:1:10062:30:59:1:TopSky plugin::TopSky plugin:0:0.0
 m_Column:XPDR:5:1:643:940:62:1:vSID:vSID:TopSky plugin:0:0.0
