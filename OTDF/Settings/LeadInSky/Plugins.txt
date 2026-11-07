@@ -55,7 +55,7 @@ TopSky plugin:ACList/SECTOR LIST/m_Column_14:RFL:5:1:10006:59:0:1:TopSky plugin:
 TopSky plugin:ACList/SECTOR LIST/m_Column_15:DEP:5:1:10007:1001:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_16:ARR:5:1:10008:1001:99:1:TopSky plugin:TopSky plugin:TopSky plugin
 TopSky plugin:ACList/SECTOR LIST/m_Column_17:SID:7:1:10011:17:0:1:TopSky plugin::
-TopSky plugin:ACList/SECTOR LIST/m_Column_18:STAR:7:1:10012:18:0:1:TopSky plugin::
+TopSky plugin:ACList/SECTOR LIST/m_Column_18:STAR:7:1:1:1:18:1:Khaleej vACC Controller Pack:Khaleej vACC Controller Pack:
 TopSky plugin:ACList/SECTOR LIST/m_Column_19:RWY:4:1:10010:19:0:1:TopSky plugin::
 TopSky plugin:ACList/SECTOR LIST/m_Column_20:RMK:10:1:38:2:0:1:TopSky plugin:TopSky plugin:
 TopSky plugin:ACList/Main VFR List/m_Visible:0

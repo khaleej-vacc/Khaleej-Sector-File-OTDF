@@ -80,3 +80,4 @@ Plugins	Plugin9Display1	Standard ES radar screen
 Plugins	Plugin10	\OTDF\Plugins\AMAN\Aman.dll
 Plugins	Plugin10Display0	Ground Radar display
 Plugins	Plugin10Display1	Standard ES radar screen
+Plugins	Plugin11	\OTDF\Plugins\KHLJvACC\KhaleejControllerPack.dll
